@@ -25,12 +25,8 @@ No manual download needed — the script fetches the data directly.
 ```
 credit-risk-analysis/
 │
-├── credit_risk_analysis.py   # Main script (all 8 sections)
-├── eda_plots.png             # EDA visualisations (auto-generated)
-├── model_evaluation.png      # ROC curves + confusion matrix (auto-generated)
-├── advanced_roc_comparison.png  # Final model comparison plot (auto-generated)
-├── README.md
-└── requirements.txt
+├── credit_risk_analysis.ipynb   # Main script (all 8 sections)
+└── README.md
 ```
 
 ---
@@ -53,25 +49,13 @@ Install all dependencies:
 pip install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn xgboost
 ```
 
-Or using the requirements file:
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ## How to Run
 
-```bash
-python credit_risk_analysis.py
-```
-
-The script runs all 8 sections sequentially and prints results to the console. Three plot files are saved automatically.
-
 ### Running in Google Colab
 
-Paste the code into a notebook. Add this cell first to install the extra packages:
+Upload and run the notebook on Colab. Add this cell first to install the extra packages:
 
 ```python
 !pip install imbalanced-learn xgboost -q
