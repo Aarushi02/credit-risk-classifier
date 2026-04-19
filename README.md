@@ -98,7 +98,7 @@ Paste the code into a notebook. Add this cell first to install the extra package
 
 | Model | Test AUC | Accuracy | Bad Recall |
 |---|---|---|---|
-| **GB + Engineered Features** ✅ | **0.8039** | **77%** | **58%** |
+| **GB + Engineered Features**  | **0.8039** | **77%** | **58%** |
 | Gradient Boosting | 0.7989 | 77% | 58% |
 | XGBoost | 0.7974 | 73% | 62% |
 | Random Forest | 0.7897 | 77% | 48% |
